@@ -1,0 +1,29 @@
+$black: #000000;
+$white: #ffffff;
+$theme-red: #D73252;
+$text-grey: #292929;
+$theme-blue: #061626;
+$text-footer: #A3A3A3;
+$text-privacy-footer: #858585;
+
+.relative {
+    position: relative;
+}
+
+// Helpers
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.flex-center {
+    display: flex!important;
+    align-items: center!important;
+}
+
+.align-center {
+    text-align: center;
+}

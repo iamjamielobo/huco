@@ -1,0 +1,42 @@
+.navigation-container {
+    padding: 25px 0;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        .logo {
+
+        }
+        nav {
+            margin-left: auto;
+            .nav-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .nav-element {
+                    margin-left: 40px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $text-grey;
+                    display: flex;
+                    align-items: center;
+                    .arrow-down {
+                        display: flex;
+                        margin: 5px 0px 0 13px;
+                    }
+                    .btn-contact-us {
+                        cursor: pointer;
+                        display: inline-block;
+                        background: $theme-red;
+                        border-radius: 10px;
+                        padding: 14px 26px;
+                        color: $white;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
